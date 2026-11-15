@@ -1,7 +1,8 @@
 # Northstar Studio
 
 A simple, multi-page business website for the fictional Northstar Studio.
-The site currently contains the initial structure and placeholder content.
+The Services page describes the studio's offerings. The Home, About, and
+Contact pages currently contain placeholder content.
 
 ## Pages
 
