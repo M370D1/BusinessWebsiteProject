@@ -21,7 +21,24 @@
 
   <main>
     <h1>Contact Us</h1>
-    <p>Contact page content will be added here.</p>
+    <p>Have a project in mind? Tell us a little about your business and what you would like to create.</p>
+
+    <form class="contact-form" name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact">
+      <p>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+      </p>
+      <p>
+        <label for="message">Project details</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </p>
+      <button type="submit">Send message</button>
+    </form>
   </main>
 
   <footer class="site-footer">

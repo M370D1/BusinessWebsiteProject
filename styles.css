@@ -43,6 +43,26 @@ main {
   padding: 2rem 5%;
 }
 
+.contact-form {
+  max-width: 32rem;
+}
+
+.contact-form label {
+  display: block;
+}
+
+.contact-form input:not([type="hidden"]),
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font: inherit;
+}
+
+.contact-form button {
+  padding: 0.5rem 1rem;
+  font: inherit;
+}
+
 .site-footer {
   border-top: 1px solid #ccc;
 }

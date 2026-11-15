@@ -2,7 +2,7 @@
 
 A simple, multi-page business website for the fictional Northstar Studio.
 The About and Services pages describe the studio and its offerings. The Home
-and Contact pages currently contain placeholder content.
+page currently contains placeholder content.
 
 ## Pages
 
@@ -23,3 +23,7 @@ The site is hosted on [Netlify](https://m370d1-business-website.netlify.app).
 Netlify is connected to the [GitHub repository](https://github.com/M370D1/BusinessWebsiteProject)
 and deploys changes pushed to the `main` branch. The publish directory is the
 repository root, and no build command is required.
+
+The Contact form uses Netlify Forms. Submissions are available in the
+project's Netlify dashboard; form processing requires a Netlify deployment and
+does not work when opening the page directly from a local file.
